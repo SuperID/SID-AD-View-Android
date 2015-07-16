@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewrool"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000" >
+
+    <ImageView
+        android:id="@+id/img_acitve"
+        android:layout_width="250dp"
+        android:layout_height="365dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/superid_active" />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/img_acitve"
+        android:layout_alignRight="@+id/img_acitve"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/superid_active_close" />
+
+    <TextView
+        android:id="@+id/tv_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img_acitve"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#fe8904"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="一登权威鉴定"
+        android:textColor="#999999"
+        android:textSize="14sp" />
+
+</RelativeLayout>
